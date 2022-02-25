@@ -67,7 +67,7 @@ Please cite this work if you find it useful:
 ```
 @inproceedings{erkoc2022skeleton,
    author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu,
-Sinan and G\"ud\"ukbay, U\u{g}ur },
+Sinan and G{\"u}d{\"u}kbay, U\u{g}ur },
    booktitle= {Understanding Social Behavior in Dyadic and Small Group
 Interactions},
    title = {Skeleton-based Personality Recognition using Laban Movement Analysis},
