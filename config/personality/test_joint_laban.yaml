@@ -8,7 +8,7 @@ test_feeder_args:
   debug: False
 
 # model
-model: model.cnn_time_domain.Model
+model: model.msg3d_laban.Model
 model_args:
   in_channels: 15
   num_class: 5
@@ -18,15 +18,13 @@ model_args:
   num_gcn_scales: 13    # `num_scales` == `K + 1` in the paper
   num_g3d_scales: 6
   graph: graph.ntu_rgb_d.AdjMatrixGraph
-  sequence_count: 2000
-  submodel: model.msg3d_laban.Model
 personality_index: -1
 
 
 # test
 phase: test
 device: [0]
-test_batch_size: 1
+test_batch_size: 16
 weights: ./work_dir/personality/msg3d_joint/weights/weights-8-7424-best.pt
 num_worker: 0
 # weights-24-17664-best-my.pt
