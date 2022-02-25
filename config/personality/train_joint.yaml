@@ -1,0 +1,53 @@
+
+work_dir: ./work_dir/personality/msg3d_joint
+#weights: ntu60-xsub-joint-better.pt
+ignore_weights: ["data_bn", "fc.weight", "fc.bias", "data_bn.weight", "data_bn.bias", "data_bn.running_mean", "data_bn.running_var",
+"gcn3d1.gcn3d.0.gcn3d.1.A_res", "gcn3d1.gcn3d.1.gcn3d.1.A_res","sgcn1.0.A_res","gcn3d2.gcn3d.0.gcn3d.1.A_res",
+                 "gcn3d2.gcn3d.1.gcn3d.1.A_res","sgcn2.0.A_res", "sgcn3.0.A_res", "gcn3d3"]
+
+#"gcn3d3.gcn3d.0.gcn3d.1.A_res",
+#                 "gcn3d3.gcn3d.1.gcn3d.1.A_res",,
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  data_path: body_keypoints_80_20/X_train_processed_con.npy
+  label_path: body_keypoints_80_20/y_train.npy
+  info_path: body_keypoints_80_20/info_train.npy
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: -1
+  normalization: False
+  is_train: True
+
+test_feeder_args:
+  data_path: body_keypoints_80_20/X_val_processed_con.npy
+  label_path: body_keypoints_80_20/y_val.npy
+  info_path: body_keypoints_80_20/info_val.npy
+
+# model
+model: model.msg3d.Model
+model_args:
+  in_channels: 6
+  num_class: 5
+  num_point: 24
+  num_person: 1
+  num_gcn_scales: 3    # `num_scales` == `K + 1` in the paper
+  num_g3d_scales: 1
+  graph: graph.ntu_rgb_d.AdjMatrixGraph
+personality_index: -1
+
+# optim
+weight_decay: 0.09
+base_lr: 0.0001
+step: [30, 40]
+num_worker: 0
+# training
+num_epoch: 200
+device: [0]
+batch_size: 128
+forward_batch_size: 1
+test_batch_size: 1
+nesterov: True
+assume_yes: True

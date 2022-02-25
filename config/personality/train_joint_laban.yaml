@@ -1,0 +1,60 @@
+work_dir: ./work_dir/personality/msg3d_joint
+#weights: ntu60-xsub-joint-better.pt
+#ignore_weights: ["data_bn", "fc.weight", "fc.bias", "data_bn.weight", "data_bn.bias", "data_bn.running_mean", "data_bn.running_var",
+#"gcn3d1.gcn3d.0.gcn3d.1.A_res", "gcn3d1.gcn3d.1.gcn3d.1.A_res","sgcn1.0.A_res","gcn3d2.gcn3d.0.gcn3d.1.A_res",
+#                 "gcn3d2.gcn3d.1.gcn3d.1.A_res","sgcn2.0.A_res", "sgcn3.0.A_res", "gcn3d3"]
+ignore_weights: ["fc.weight", "fc.bias"]
+weights: ./work_dir/personality/msg3d_joint/weights/best_weights.pt
+
+#"gcn3d3.gcn3d.0.gcn3d.1.A_res",
+#                 "gcn3d3.gcn3d.1.gcn3d.1.A_res",,
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  data_path: body_keypoints_full_train/X_train_processed.npy
+  label_path: body_keypoints_full_train/y_train.npy
+  laban_path: body_keypoints_full_train/X_train_laban.npy
+  info_path: body_keypoints_full_train/info_train.npy
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: -1
+  normalization: False
+  is_train: True
+
+test_feeder_args:
+  data_path: body_keypoints_full_val/X_val_processed.npy
+  label_path: body_keypoints_full_val/y_val.npy
+  laban_path: body_keypoints_full_val/X_val_laban.npy
+  info_path: body_keypoints_full_val/info_val.npy
+
+# model
+model: model.cnn_time_domain.Model
+model_args:
+  in_channels: 15
+  num_class: 5
+  num_point: 24
+  layer_channels: 12
+  num_person: 1
+  num_gcn_scales: 13    # `num_scales` == `K + 1` in the paper
+  num_g3d_scales: 6
+  graph: graph.ntu_rgb_d.AdjMatrixGraph
+  sequence_count: 2000
+  submodel: model.msg3d_laban.Model
+personality_index: -1
+
+# optim
+weight_decay: 0.001
+base_lr: 0.0001
+step: [200, 300]
+num_worker: 0
+optimizer: SGD
+# training
+num_epoch: 200
+device: [0]
+batch_size: 1
+forward_batch_size: 1
+test_batch_size: 1
+nesterov: True
+assume_yes: True

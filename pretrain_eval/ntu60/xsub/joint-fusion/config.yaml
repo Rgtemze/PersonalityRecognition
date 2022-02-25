@@ -1,0 +1,52 @@
+amp_opt_level: 1
+assume_yes: false
+base_lr: 0.01
+batch_size: 32
+checkpoint: null
+config: ./config/nturgbd-cross-subject/test_joint_laban.yaml
+debug: false
+device:
+- 0
+eval_interval: 1
+eval_start: 1
+feeder: feeders.feeder.Feeder
+forward_batch_size: 16
+half: false
+ignore_weights: []
+log_interval: 100
+model: model.msg3d.Model
+model_args:
+  graph: graph.ntu_rgb_d.AdjMatrixGraph
+  num_class: 60
+  num_g3d_scales: 6
+  num_gcn_scales: 13
+  num_person: 2
+  num_point: 25
+model_saved_name: ''
+nesterov: false
+num_epoch: 80
+num_worker: 128
+optimizer: SGD
+optimizer_states: null
+phase: test
+print_log: true
+save_interval: 1
+save_score: true
+seed: 65
+show_topk:
+- 1
+- 5
+start_epoch: 0
+step:
+- 20
+- 40
+- 60
+test_batch_size: 32
+test_feeder_args:
+  data_path: ./data/ntu/xsub/val_data_joint.npy
+  debug: false
+  label_path: ./data/ntu/xsub/val_label.pkl
+train_feeder_args: {}
+weight_decay: 0.0005
+weights: ntu60-xsub-joint-fusion.pt
+work_dir: pretrain_eval/ntu60/xsub/joint-fusion

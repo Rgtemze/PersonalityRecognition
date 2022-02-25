@@ -1,0 +1,30 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: body_keypoints_80_20/X_test_processed_con.npy
+  label_path: body_keypoints_80_20/y_test.npy
+  info_path: body_keypoints_80_20/info_test.npy
+  debug: False
+
+# model
+model: model.msg3d.Model
+model_args:
+  in_channels: 6
+  num_class: 5
+  num_point: 24
+  num_person: 1
+  num_gcn_scales: 3    # `num_scales` == `K + 1` in the paper
+  num_g3d_scales: 1
+  graph: graph.ntu_rgb_d.AdjMatrixGraph
+personality_index: -1
+
+# test
+phase: test
+device: [0]
+test_batch_size: 64
+weights: ./work_dir/personality/msg3d_joint/weights/weights-2-224-best.pt
+num_worker: 0
+
+
+work_dir: ./eval/personality/joint/
+save_score: True

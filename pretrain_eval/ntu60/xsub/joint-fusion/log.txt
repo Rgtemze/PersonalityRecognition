@@ -1,0 +1,305 @@
+[ Fri Aug 13 11:43:33 2021 ] Model total number of params: 5797944
+[ Fri Aug 13 11:43:33 2021 ] Loading weights from pretrained-models/ntu60-xsub-joint-fusion.pt
+[ Fri Aug 13 11:44:07 2021 ] Model total number of params: 5797944
+[ Fri Aug 13 11:44:07 2021 ] Loading weights from ntu60-xsub-joint-paper.pt
+[ Fri Aug 13 11:44:07 2021 ] Can not find these weights:
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Fri Aug 13 11:44:07 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:07:13 2021 ] Model total number of params: 3162696
+[ Wed Aug 18 22:07:13 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Wed Aug 18 22:20:00 2021 ] Model total number of params: 3194595
+[ Wed Aug 18 22:20:00 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Wed Aug 18 22:20:01 2021 ] Can not find these weights:
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:01 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:31 2021 ] Model total number of params: 3194595
+[ Wed Aug 18 22:20:31 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Wed Aug 18 22:20:32 2021 ] Can not find these weights:
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Wed Aug 18 22:20:32 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 14:54:11 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 14:54:11 2021 ] Can not find these weights:
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 14:54:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:10 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:12:10 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:12:11 2021 ] Can not find these weights:
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:12:11 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:13:59 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:13:59 2021 ] Can not find these weights:
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:13:59 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:15:10 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:15:10 2021 ] Can not find these weights:
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:15:10 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:22 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:20:22 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:20:23 2021 ] Can not find these weights:
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:20:23 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:11 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:22:11 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:22:33 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:22:33 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
+[ Thu Aug 19 15:22:33 2021 ] Can not find these weights:
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.0.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.bias
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.0.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_mean
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.num_batches_tracked
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d1.gcn3d.0.gcn3d.1.mlp.layers.2.weight
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d2.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:33 2021 ]   gcn3d3.gcn3d.1.gcn3d.1.mlp.layers.2.running_var
+[ Thu Aug 19 15:22:44 2021 ] Model total number of params: 3194595
+[ Thu Aug 19 15:22:44 2021 ] Loading weights from ntu60-xsub-joint-fusion.pt
