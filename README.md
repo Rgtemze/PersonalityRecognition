@@ -1,19 +1,21 @@
-# PersonalityRecognition
+# Skeleton-based Personality Recognition
+
+
 
 PyTorch implementation of "Skeleton-based Personality Recognition using Laban  Movement Analysis", PMLR Proccedings of DYAD @ ICCV 2021 Workshop.
 
 This code base is built on top of [MSG3D](https://github.com/kenziyuliu/MS-G3D).
 
-[[PDF]()][[Demo]()][[Abstract/Supp]()]
+### [Skeleton-based Personality Recognition using Laban  Movement Analysis]()
+[Ziya Erkoç](https://ziyaerkoc.com/)\*,
+ [Serkan Demirci](http://serkan.demirci.bilkent.edu.tr/)\*,
+ [Sinan Sonlu](http://sinan.sonlu.bilkent.edu.tr/),
+ [Uğur Güdükbay](http://www.cs.bilkent.edu.tr/~gudukbay/)\
+ Bilkent University\
+\*denotes equal contribution  
 
 
-<img src="imgs/cropped-fixed-standup.gif" width="24%"><img src="imgs/cropped-fixed-clap.gif" width="24%">
-<img src="imgs/cropped-fixed-salute.gif" width="24%">
-<img src="imgs/cropped-fixed-pointfinger.gif" width="24%">
-<img src="imgs/cropped-fixed-pickup.gif" width="24%">
-<img src="imgs/cropped-fixed-rub.gif" width="24%">
-<img src="imgs/cropped-fixed-drink.gif" width="24%">
-<img src="imgs/cropped-fixed-checktime.gif" width="24%">
+<img src="images/overview.png" width="100%"></img>
 
 
 ## Dependencies
@@ -23,6 +25,58 @@ This code base is built on top of [MSG3D](https://github.com/kenziyuliu/MS-G3D).
 - [NVIDIA Apex](https://github.com/NVIDIA/apex) (auto mixed precision training)
 - PyYAML, tqdm, tensorboardX
 
+## Data Preparation
+
+Download [UDIVA v0.5](https://chalearnlap.cvc.uab.cat/dataset/41/description/) dataset.
+
+### Data Preprocessing
+
+Run `preprocess_personality.py` to preprocess the dataset.
+
+```sh
+$ python data_gen/perprocess_personality.py <folder_path> skeleton
+$ python data_gen/perprocess_personality.py <folder_path> laban
+```
+
+where `"skeleton"` stage normalizes the skeletons, and `"laban"` stage calculates Laban Movement Analysis features.
+
+## Running code
+
+### Training
+
+```sh
+$ python main.py --work-dir <work-dir> --config ./config/personality/train_joint_laban.yaml --dataset-dir <dataset-dir>
+```
+
+### Evaluating
+
+```sh
+$ python main.py --work-dir <work-dir> --config ./config/personality/test_joint_laban.yaml --dataset-dir <dataset-dir>
+```
+
+To see the list of all parameters, please refer to [MSG3D](https://github.com/kenziyuliu/MS-G3D).
+
+## Results
+<img src="images/results.png" width="100%"></img>
+
+
+## Citation
+
+Please cite this work if you find it useful:
+
+```
+@inproceedings{erkoc2022skeleton,
+   author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu,
+Sinan and G\"ud\"ukbay, U\u{g}ur },
+   booktitle= {Understanding Social Behavior in Dyadic and Small Group
+Interactions},
+   title = {Skeleton-based Personality Recognition using Laban Movement Analysis},
+   year = {2022},
+   series = {Proceedings of Machine Learning Research},
+}
+```
+
+<!--
 ## Data Preparation
 
 *Disk usage warning: after preprocessing, the total sizes of datasets are around 38GB, 77GB, 63GB for NTU RGB+D 60, NTU RGB+D 120, and Kinetics 400, respectively. The raw/intermediate sizes may be larger.*
@@ -221,3 +275,4 @@ Please cite this work if you find it useful:
 
 ## Contact
 Please email `kenziyuliu AT outlook.com` for further questions
+-->
