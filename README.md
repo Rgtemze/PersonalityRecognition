@@ -65,14 +65,19 @@ To see the list of all parameters, please refer to [MSG3D](https://github.com/ke
 Please cite this work if you find it useful:
 
 ```
-@inproceedings{erkoc2022skeleton,
-   author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu,
-Sinan and G{\"u}d{\"u}kbay, U\u{g}ur },
-   booktitle= {Understanding Social Behavior in Dyadic and Small Group
-Interactions},
-   title = {Skeleton-based Personality Recognition using Laban Movement Analysis},
-   year = {2022},
-   series = {Proceedings of Machine Learning Research},
+@InProceedings{pmlr-v173-erkoc22a,
+  title = {Skeleton-based Personality Recognition using Laban Movement Analysis},
+  author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu, Sinan and G\"ud\"ukbay, U\u{g}ur},
+  booktitle = {Understanding Social Behavior in Dyadic and Small Group Interactions},
+  pages = {74--87},
+  year = {2022},
+  editor = {Palmero, Cristina and Jacques Junior, Julio C. S. and Clapés, Albert and Guyon, Isabelle and Tu, Wei-Wei and Moeslund, Thomas B. and Escalera, Sergio},
+  volume = {173},
+  series = {Proceedings of Machine Learning Research},
+  month = {16 Oct},
+  publisher = {PMLR},
+  pdf = {https://proceedings.mlr.press/v173/erkoc22a/erkoc22a.pdf},
+  url = {https://proceedings.mlr.press/v173/erkoc22a.html},
 }
 ```
 
