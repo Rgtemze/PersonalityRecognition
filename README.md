@@ -65,9 +65,9 @@ To see the list of all parameters, please refer to [MSG3D](https://github.com/ke
 Please cite this work if you find it useful:
 
 ```
-@InProceedings{pmlr-v173-erkoc22a,
+@InProceedings{erkoc2022skeleton,
   title = {Skeleton-based Personality Recognition using Laban Movement Analysis},
-  author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu, Sinan and G\"ud\"ukbay, U\u{g}ur},
+  author = {Erko\c{c}, Ziya and Demirci, Serkan and Sonlu, Sinan and G{\"u}d{\"u}kbay, U\u{g}ur},
   booktitle = {Understanding Social Behavior in Dyadic and Small Group Interactions},
   pages = {74--87},
   year = {2022},
