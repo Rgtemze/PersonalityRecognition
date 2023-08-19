@@ -31,6 +31,8 @@ Download [UDIVA v0.5](https://chalearnlap.cvc.uab.cat/dataset/41/description/) d
 
 ### Data Preprocessing
 
+First of all, execute `udiva_parser.py` to extratct UDIVA data. This scripts divides the videos into chunks and splits them into train, val and test sets. 
+
 Run `preprocess_personality.py` to preprocess the dataset.
 
 ```sh
