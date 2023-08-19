@@ -53,7 +53,7 @@ if is_train:
     oceans = ppl_df[OCEAN_COLUMNS].to_numpy()
     oceans_median = np.median(oceans, axis=0)
     print(oceans_median)
-chunk_size = 250
+chunk_size = 2000
 input_size = 24 * 3 + 68 * 3
 use_file = False
 
@@ -174,12 +174,12 @@ if not use_file:
             session.close()
             index += 1
 
-    np.save("body_keypoints_full_test_250/X_train", X_train)
-    np.save("body_keypoints_full_test_250/y_train", y_train)
-    np.save("body_keypoints_full_test_250/info_train", info_train)
-    np.save("body_keypoints_full_test_250/X_val", X_val)
-    np.save("body_keypoints_full_test_250/y_val", y_val)
-    np.save("body_keypoints_full_test_250/info_val", info_val)
-    np.save("body_keypoints_full_test_250/X_test", X_test)
-    np.save("body_keypoints_full_test_250/y_test", y_test)
-    np.save("body_keypoints_full_test_250/info_test", info_test)
+    np.save("body_keypoints_full_train_2000/X_train", X_train)
+    np.save("body_keypoints_full_train_2000/y_train", y_train)
+    np.save("body_keypoints_full_train_2000/info_train", info_train)
+    np.save("body_keypoints_full_val_2000/X_val", X_val)
+    np.save("body_keypoints_full_val_2000/y_val", y_val)
+    np.save("body_keypoints_full_val_2000/info_val", info_val)
+    np.save("body_keypoints_full_test_2000/X_test", X_test)
+    np.save("body_keypoints_full_test_2000/y_test", y_test)
+    np.save("body_keypoints_full_test_2000/info_test", info_test)
